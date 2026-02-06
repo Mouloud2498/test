@@ -12,7 +12,7 @@ def generer_questionnaire():
 
     # Calcule la reponse 
     
-    
+
     if operation == '+':
         reponse_correcte = nombre1 + nombre2
     elif operation == '-':
@@ -41,7 +41,7 @@ def poser_questions(nbq):
         # faire un appel a la fonction precedente et stocker ses valeur retourner dans question et reponse_correcte
         question, reponse_correcte = generer_questionnaire()
         # afficher la questions tire au hasard et sauvgarder la reponse de l'utilisateur
-        reponse_utilisateur = float(input(f"Question {i} : {question} = "))
+        reponse_utilisateur = float(input(f"Question de mouloud {i} : {question} = "))
         # tester si c'est une reponse correcte par rapport a la valeur retourner par la fonction generer_questionnaire()
         if reponse_utilisateur == reponse_correcte:
             # incrementer la valeur du score si cest une bonne reponse
