@@ -10,7 +10,9 @@ def generer_questionnaire():
     # afficher la question resultante des nombres et de l'operation choisis aleatoirement
     question = f"{nombre1} {operation} {nombre2}"
 
-    # Calcule la reponse correcte
+    # Calcule la reponse 
+    
+    
     if operation == '+':
         reponse_correcte = nombre1 + nombre2
     elif operation == '-':
